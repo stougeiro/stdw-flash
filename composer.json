@@ -1,0 +1,21 @@
+{
+    "name": "stougeiro/stdw-flash",
+    "type": "package",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "S.Tougeiro",
+            "email": "sidneytougeiro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "STDW\\Flash\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "stougeiro/stdw-contract": "dev-main",
+        "stougeiro/stdw-support": "dev-main"
+    }
+}
